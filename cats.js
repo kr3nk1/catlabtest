@@ -2,9 +2,10 @@
 let cats =[
 {name: 'taby', likes: 'catni'},
 {name: 'bob ross', likes: 'paint'},
-{name: 'chaos', likes: 'knocking over plants'}
+{name: 'chaos', likes: 'knocking over plants'},
+{name: 'juanito', likes: 'party'}
 ]
 
 for(let i=0; i<cats.length; i++) {
-  console.log(`${cats[i].name} likes ${cats[i].likes}`);
+  console.log(`${cats[i].name} likes ${cats[i].likes}`);//string interpretation
 }
